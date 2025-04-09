@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantumberg Technologies </title>
+    <link rel="icon" type="image/png" href="images/LOGo.png">
+ 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+        <div class="container">
+            <!-- Logo and Company Name -->
+            <a class="navbar-brand d-flex align-items-center" href="home.html">
+                <img src="images/qa_logo.png" alt="Quantumberg Logo" width="150" class="me-2">
+             
+            </a>
+            <!-- Navbar Links -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hiring Banner with Scrolling Text -->
+    <div class="gradient-bar py-2 text-white font-semibold text-sm overflow-hidden">
+        <div class="scroll-text">
+            We Are Hiring !&nbsp;&nbsp;&nbsp;#Remote! &nbsp; #Hybrid &nbsp;#Offline!  &nbsp;#Full_Time!
+        </div>
+        
+    </div>
+
+    <!-- Main Section -->
+    <section class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h6 class="text-muted">We make technology work for you!</h6>
+                <h1 class="fw-bold">Professional <br> Software Services</h1>
+                <p class="text-muted">
+                    Welcome to Quantumberg, a leading software development company that specializes in creating
+                    innovative and user-friendly digital solutions.
+                </p>
+                <a href="contact.html" class="btn btn-primary me-2">Contact Us</a>
+                <a href="about.html" class="btn btn-outline-secondary">About Us</a>
+
+            </div>
+            <div class="col-md-6 custom-image-container">
+                <img src="images/img_1.jpg" alt="Professional Services" class="img-fluid circular-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <h3 class="mb-4 fw-bold">Our Service Map</h3>
+        <div class="row align-items-start">
+          <!-- Left Column: Image -->
+          <div class="col-md-6 mb-4">
+            <img id="serviceImage" src="images/services.jpeg" alt="Service Image" class="img-fluid rounded shadow-sm">
+          </div>
+      
+          <!-- Right Column: List with expandable points -->
+          <div class="col-md-6">
+            <ol class="list-unstyled service-list">
+              <li onmouseenter="hoverService(0)" onmouseleave="resetService()">
+                1. Consulting And Strategy
+                <ul id="points-0" class="key-points d-none"></ul>
+              </li>
+              <li onmouseenter="hoverService(1)" onmouseleave="resetService()">
+                2. User Experience (UX) And UI Design
+                <ul id="points-1" class="key-points d-none"></ul>
+              </li>
+              <li onmouseenter="hoverService(2)" onmouseleave="resetService()">
+                3. Full-Stack Application Development
+                <ul id="points-2" class="key-points d-none"></ul>
+              </li>
+              <li onmouseenter="hoverService(3)" onmouseleave="resetService()">
+                4. Testing And Quality Assurance
+                <ul id="points-3" class="key-points d-none"></ul>
+              </li>
+              <li onmouseenter="hoverService(4)" onmouseleave="resetService()">
+                5. Cloud Services And Deployment
+                <ul id="points-4" class="key-points d-none"></ul>
+              </li>
+              <li onmouseenter="hoverService(5)" onmouseleave="resetService()">
+                6. Maintenance And Support
+                <ul id="points-5" class="key-points d-none"></ul>
+              </li>
+              <li onmouseenter="hoverService(6)" onmouseleave="resetService()">
+                7. Client Training
+                <ul id="points-6" class="key-points d-none"></ul>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      
+      
+      
+    
+      <section class="container py-5">
+        <h3 class="mb-4 fw-bold">Solutions we deliver</h3>
+      
+        <div class="scrolling-container">
+          <div class="scrolling-track">
+            <div class="solution-box bg-purple">
+              <img src="images/ERP.png" alt="ERP Icon" class="box-icon">
+              <p>ERP applications</p>
+            </div>
+      
+            <div class="solution-box bg-darkpurple">
+              <img src="images/intarnet.png" alt="Intranet Icon" class="box-icon">
+              <p>Intranets</p>
+            </div>
+      
+            <div class="solution-box bg-purple">
+              <img src="images/HRMS.png" alt="HRMS Icon" class="box-icon">
+              <p>HRMS</p>
+            </div>
+      
+            <div class="solution-box bg-darkpurple">
+              <img src="images/web.png" alt="Web Icon" class="box-icon">
+              <p>Web Applications</p>
+            </div>
+
+            <div class="solution-box bg-purple">
+                <img src="images/mobile.png" alt="HRMS Icon" class="box-icon">
+                <p>Mobile Applications</p>
+              </div>
+
+              <div class="solution-box bg-darkpurple">
+                <img src="images/cloud.png" alt="Web Icon" class="box-icon">
+                <p>Cloud solutions</p>
+              </div>
+
+              <div class="solution-box bg-purple">
+                <img src="images/mobile.png" alt="HRMS Icon" class="box-icon">
+                <p>Windows Applications</p>
+              </div>
+
+              <div class="solution-box bg-darkpurple">
+                <img src="images/video.png" alt="Web Icon" class="box-icon">
+                <p>Video Streaming </p>
+              </div>
+              
+      
+            <!-- Repeat boxes if you want it to scroll infinitely without gaps -->
+            <div class="solution-box bg-purple">
+                <img src="images/ERP.png" alt="ERP Icon" class="box-icon">
+                <p>ERP applications</p>
+              </div>
+        
+              <div class="solution-box bg-darkpurple">
+                <img src="images/intarnet.png" alt="Intranet Icon" class="box-icon">
+                <p>Intranets</p>
+              </div>
+        
+              <div class="solution-box bg-purple">
+                <img src="images/HRMS.png" alt="HRMS Icon" class="box-icon">
+                <p>HRMS</p>
+              </div>
+        
+              <div class="solution-box bg-darkpurple">
+                <img src="images/web.png" alt="Web Icon" class="box-icon">
+                <p>Web Applications</p>
+              </div>
+  
+              <div class="solution-box bg-purple">
+                  <img src="images/mobile.png" alt="HRMS Icon" class="box-icon">
+                  <p>Mobile Applications</p>
+                </div>
+  
+                <div class="solution-box bg-darkpurple">
+                  <img src="images/cloud.png" alt="Web Icon" class="box-icon">
+                  <p>Cloud solutions</p>
+                </div>
+  
+                <div class="solution-box bg-purple">
+                  <img src="images/mobile.png" alt="HRMS Icon" class="box-icon">
+                  <p>Windows Applications</p>
+                </div>
+  
+                <div class="solution-box bg-darkpurple">
+                  <img src="images/video.png" alt="Web Icon" class="box-icon">
+                  <p>Video Streaming </p>
+                </div>
+          </div>
+        </div>
+      </section>
+      
+      
+    
+
+    <!-- Why Choose Us Section -->
+    <section class="why-section">
+        <h3 class="why-title">Why Choose Us?</h3>
+        <div class="why-row">
+          <div class="why-column">
+            <h2 class="why-number">1</h2>
+            <h5 class="why-heading">Quick Time-to-Market</h5>
+            <p class="why-text">We prioritize Quick Time-to-Market, ensuring your product reaches customers faster than competitors. 
+                This speed can give you a competitive advantage and generate revenue sooner. In today's fast-paced business landscape,
+                 the ability to adapt swiftly to changing market conditions is paramount.
+                 Our Quick Time-to-Market approach enables you to stay ahead of trends and react to market shifts effectively.
+                
+                </p>
+          </div>
+          <div class="why-column">
+            <h2 class="why-number">2</h2>
+            <h5 class="why-heading">Reliable & Quality delivery</h5>
+            <p class="why-text">Client satisfaction is at the core of our business. Our Reliable & Quality Delivery approach guarantees 
+                that your needs and expectations are met, leading to happy and loyal clients. We employ agile methodologies, which promote 
+                adaptability, client collaboration and incremental deliveries, which keeps your project on track. We maintain stringent quality
+                 assurance standards throughout the development process.
+            </p>
+          </div>
+          <div class="why-column">
+            <h2 class="why-number">3</h2>
+            <h5 class="why-heading">Competitive price</h5>
+            <p class="why-text"> Our streamlined and efficient processes enable us to offer Competitive Pricing while maintaining high quality.
+                 Our competitive rates make high-quality services accessible to businesses of all sizes. We maintain transparency in our pricing,
+                  so you always know what you're paying for. No hidden fees or unexpected costs. By choosing us, you enter into a win-win 
+                  partnership. You save on costs and we gain your trust and long-term business.
+            </p>
+          </div>
+        </div>
+      </section>
+<!-- Technological Expertise -->
+
+<section class="tech-expertise">
+    <div class="container">
+        <h3 class="why-title">Our Technological Expertise</h3>
+      <p class="section-subtitle">
+       <b> At Quantumberg, we take pride in our extensive capabilities and technological expertise that empower businesses to achieve their
+         goals.</b>
+      </p>
+  
+     <div class="cards-wrapper">
+        <!-- Front-End -->
+        <div class="card">
+          <h3 class="why-heading">Front-End Development</h3>
+          <div class="icons">
+            <img src="images/css.png" alt="HTML5" />
+            <img src="images/js.png" alt="JavaScript" />
+            <img src="images/react.png" alt="React" />
+            <img src="images/css3.png" alt="CSS3" />
+            <img src="images/vuejs.png" alt="Vue.js" />
+            <img src="images/nextjs.png" alt="Next.js" />
+          </div>
+        </div>
+  
+        <!-- Back-End -->
+        <div class="card">
+          <h3 class="why-heading">Back-End Programming Languages</h3>
+          <div class="icons">
+            <img src="images/python.png" alt="Python" />
+            <img src="images/java.png" alt="Java" />
+            <img src="images/csharp.png" alt="C#" />
+          </div>
+        </div>
+  
+        <!-- Databases -->
+        <div class="card">
+          <h3 class="why-heading">Databases</h3>
+          <div class="icons">
+            <img src="images/kubernetes.png" alt="Kubernetes" />
+            <img src="images/azure.png" alt="Azure" />
+            <img src="images/mysql.png" alt="MySQL" />
+            <img src="images/docker.png" alt="Docker" />
+            <img src="images/postgresql.png" alt="PostgreSQL" />
+            <img src="images/axure.png" alt="Axure" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- moving effect  -->
+  <div class="quantumberg-grid-container">
+  
+    <!-- Frontend Section -->
+    <div class="quantumberg-scroll-row quantumberg-scroll-right">
+      <div class="quantumberg-grid-item">Design a responsive landing page with HTML, CSS, and JavaScript</div>
+      <div class="quantumberg-grid-item">Implement a dark mode toggle in React</div>
+      <div class="quantumberg-grid-item">Optimize website performance with lazy loading and code splitting</div>
+      <div class="quantumberg-grid-item">Build an interactive dashboard using Vue.js and Chart.js</div>
+      <div class="quantumberg-grid-item">Create accessible forms with ARIA labels and semantic HTML</div>
+    </div>
+    
+    <!-- Backend Section -->
+    <div class="quantumberg-scroll-row quantumberg-scroll-left">
+      <div class="quantumberg-grid-item">Develop a REST API using Node.js and Express</div>
+      <div class="quantumberg-grid-item">Implement authentication with JWT in Django</div>
+      <div class="quantumberg-grid-item">Set up a relational database with PostgreSQL</div>
+      <div class="quantumberg-grid-item">Build microservices using Spring Boot and Docker</div>
+      <div class="quantumberg-grid-item">Write unit tests for APIs using Mocha and Chai</div>
+    </div>
+    
+    <!-- Cloud Section -->
+    <div class="quantumberg-scroll-row quantumberg-scroll-right">
+      <div class="quantumberg-grid-item">Deploy a web app to AWS using EC2 and S3</div>
+      <div class="quantumberg-grid-item">Set up CI/CD pipelines with GitHub Actions</div>
+      <div class="quantumberg-grid-item">Manage Kubernetes clusters on Google Cloud Platform</div>
+      <div class="quantumberg-grid-item">Monitor cloud applications with Azure Monitor</div>
+      <div class="quantumberg-grid-item">Implement serverless functions with AWS Lambda</div>
+    </div>
+  
+  </div>
+  
+      <!-- Footer  -->
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img src="images/qa_logo.png" alt="Quantumberg Logo">
+          </div>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      
+        <div class="footer-main">
+          <div class="footer-column">
+            <h4>Reach Us</h4>
+            <p><i class="fas fa-phone"></i> +919108728053</p>
+            <p><i class="fas fa-envelope"></i> admin@quantumberg.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> No.1376, 2nd floor, 13th Cross, Sarakki Main Rd,<br>1st Phase, J. P. Nagar, Bengaluru, Karnataka 560078</p>
+          </div>
+      
+          <div class="footer-column">
+            <h4>Company</h4>
+            <a href="#">About</a><br>
+            <a href="#">Contact</a>
+          </div>
+      
+          <div class="footer-column">
+            <h4>Legal</h4>
+            <a href="#">Privacy Policy</a><br>
+            <a href="#">Terms & Services</a><br>
+            <a href="#">Terms of Use</a>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          &copy; 2022 Copyright: Quantumberg Technologies Pvt.Ltd
+        </div>
+      </footer>
+      
+      <!-- Font Awesome Icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+      
+       
+      
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="home.js"></script>
+
+</body>
+
+</html>
